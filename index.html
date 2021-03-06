@@ -17,9 +17,11 @@ body, html {
 /* Full height image header */
 .bgimg-1 {
   background-position: center;
-  background-size: cover;
-  background-image: url("star-trek.jpg");
+  background-size: 900px 600px;
   min-height: 100%;
+  background-repeat: no-repeat;
+  background-position: left;
+  
 }
 
 .w3-bar .w3-button {
@@ -31,19 +33,21 @@ body, html {
 <!-- Navbar (sit on top) -->
 <div class="w3-top">
   <div class="w3-bar w3-white w3-card" id="myNavbar">
-    <a href="#home" class="w3-bar-item w3-button w3-wide">
-      <img border="10" alt="Logo" src="logo1.jpeg" width="250" height="80">
+    <a href="index.html" class="w3-bar-item w3-button w3-wide">
+      <img border="20" alt="Logo" src="SURK_Beyaz_Logo.png" width="200" height="100" style="margin-left: 50px; margin-bottom:10px;">
     </a>
     <!-- Right-sided navbar links -->
-    <div class="w3-right w3-hide-small">
-      <a href="about.html" class="w3-bar-item w3-button">ABOUT</a>
-      <a href="science.html" class="w3-bar-item w3-button"><i class="fa fa-user"></i> SCIENCE</a>
-      <a href="#work" class="w3-bar-item w3-button"><i class="fa fa-th"></i> ACTIVITIES</a>
-      <a href="#team" class="w3-bar-item w3-button"><i class="fa fa-usd"></i> TEAM</a>
-      <a href="#contact" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> CONTACT</a>
+    <div class="w3-right w3-hide-small" style="margin-top:30px;margin-right:80px;color: #212e66!important;
+    font-weight: bold;
+    font-family: Arial, sans-serif;">
+      <a href="about.html" class="w3-bar-item w3-button"> ABOUT</a>
+      <a href="activities.html" class="w3-bar-item w3-button"> ACTIVITIES</a>
+      <a href="announcements.html" class="w3-bar-item w3-button"> ANNOUNCEMENTS </a>
+      <a href="team.html" class="w3-bar-item w3-button"> TEAM </a>
+      <a href="contact.html" class="w3-bar-item w3-button"> CONTACT </a>
     </div>
+    
     <!-- Hide right-floated links on small screens and replace them with a menu icon -->
-
     <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
       <i class="fa fa-bars"></i>
     </a>
@@ -62,12 +66,15 @@ body, html {
 </nav>
 
 <!-- Header with full-height image -->
-<header class="bgimg-1 w3-display-container w3-grayscale-min" id="home">
-  <div class="w3-display-left w3-text-white" style="padding:48px">
-    <span class="w3-jumbo w3-hide-small">Welcome on board</span><br>
-    <span class="w3-xxlarge w3-hide-large w3-hide-medium">Welcome on board</span><br>
-    <span class="w3-large"> Here we are trying to build sthe Science club of Sabancı University</span>
-    <p><a href="#about" class="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off">Learn more and start today</a></p>
+<header class="bgimg-1 w3-display-container" id="home">
+  <div class="image" style="background-size: 900px 600px;filter: grayscale(50%);" >
+    <img alt="robo1" src="robo1.png" width="900" height="600">
+  </div>
+  <div class="w3-display-topright w3-text-white" style="padding-top:200px; background-color: #212e66; background-size: 900px 1200px; background-position: right; position: right; width:650px;height:600px; filter: none; text-align: right;">
+    <span class="w3-jumbo w3-hide-small" style="margin-right:50px;">Welcome on board</span><br>
+    <span class="w3-xxlarge w3-hide-large w3-hide-medium" style="margin-right:50px;">Welcome on board</span><br>
+    <span style="text-align: center; margin-right:50px; color: white;"> The website is under construction please use contact for more information</span>
+    <p><a href="about.html" class="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off" style="margin-right:50px;">Learn more about our club</a></p>
   </div> 
   <div class="w3-display-bottomleft w3-text-grey w3-large" style="padding:24px 48px">
     <i class="fa fa-facebook-official w3-hover-opacity"></i>
@@ -81,29 +88,24 @@ body, html {
 
 
 <!-- About Section -->
-<p><a href="about.html">about Images</a></p>
-
-<!-- Team Section -->
-<p><a href="science.html">science Images</a></p>
-
 
 <!-- Promo Section "Statistics" -->
-<div class="w3-container w3-row w3-center w3-dark-grey w3-padding-64">
+<div class="w3-container w3-row w3-center" style="background-color: #393F59 ;color: white">
   <div class="w3-quarter">
-    <span class="w3-xxlarge">14+</span>
-    <br>Partners
+    <span class="w3-xxlarge">120+</span>
+    <br>Students
   </div>
   <div class="w3-quarter">
-    <span class="w3-xxlarge">55+</span>
-    <br>Projects Done
+    <span class="w3-xxlarge">10+</span>
+    <br>Board members
   </div>
   <div class="w3-quarter">
-    <span class="w3-xxlarge">89+</span>
-    <br>Happy Clients
+    <span class="w3-xxlarge">20+</span>
+    <br>Projects
   </div>
   <div class="w3-quarter">
-    <span class="w3-xxlarge">150+</span>
-    <br>Meetings
+    <span class="w3-xxlarge">130+</span>
+    <br>Workshops
   </div>
 </div>
 
